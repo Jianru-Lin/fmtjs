@@ -9,6 +9,3 @@ function fmtjs(text, options) {
 }
 
 module.exports = exports = fmtjs
-
-// test
-console.log(fmtjs('var a = 100; var b = 200;'))
