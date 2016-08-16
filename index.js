@@ -1,4 +1,14 @@
-var fmtjs = require('./lib/fmtjs')
+var esprima = require('esprima')
+var att = require('fmtjs-att')
+var render = require('fmtjs-att-render')
 
-var output = fmtjs('var a=1;var b=2;')
-console.log(output)
+function fmtjs(text, options) {
+	var ast = esprima.parse(text)
+	var output = render(att(ast, options), options)
+	return output
+}
+
+module.exports = exports = fmtjs
+
+// test
+console.log(fmtjs('var a = 100; var b = 200;'))
