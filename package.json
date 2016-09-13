@@ -1,6 +1,6 @@
 {
   "name": "fmtjs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JavaScript code formatter.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "Jianru Lin",
   "license": "MIT",
   "dependencies": {
-    "esprima": "^2.7.2",
+    "esprima": "^3.0.0",
     "fmtjs-att": "^1.0.0",
     "fmtjs-att-render": "^1.0.0"
   }
