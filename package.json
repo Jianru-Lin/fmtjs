@@ -1,6 +1,6 @@
 {
     "name": "fmtjs",
-    "version": "5.5.3",
+    "version": "5.5.4",
     "description": "JavaScript code formatter.",
     "main": "index.js",
     "scripts": {
@@ -14,7 +14,7 @@
     "license": "MIT",
     "dependencies": {
         "esprima": "^3.1.0",
-        "fmtjs-att": "5.5.3",
-        "fmtjs-att-render": "5.5.3"
+        "fmtjs-att": "5.5.4",
+        "fmtjs-att-render": "5.5.4"
     }
 }
