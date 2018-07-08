@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "esprima": "^4.0.0",
-    "fmtjs-att": "5.8.0",
+    "fmtjs-att": "5.9.0",
     "fmtjs-att-render": "5.8.0"
   }
 }
