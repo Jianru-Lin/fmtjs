@@ -1,6 +1,6 @@
 {
   "name": "fmtjs",
-  "version": "5.8.0",
+  "version": "5.9.0",
   "description": "JavaScript code formatter.",
   "main": "index.js",
   "scripts": {
