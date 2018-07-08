@@ -1,20 +1,20 @@
 {
-    "name": "fmtjs",
-    "version": "5.8.0",
-    "description": "JavaScript code formatter.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "JavaScript",
-        "formatter"
-    ],
-    "author": "Jianru Lin",
-    "license": "MIT",
-    "dependencies": {
-        "esprima": "^3.1.0",
-        "fmtjs-att": "5.8.0",
-        "fmtjs-att-render": "5.8.0"
-    }
+  "name": "fmtjs",
+  "version": "5.8.0",
+  "description": "JavaScript code formatter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "formatter"
+  ],
+  "author": "Jianru Lin",
+  "license": "MIT",
+  "dependencies": {
+    "esprima": "^4.0.0",
+    "fmtjs-att": "5.8.0",
+    "fmtjs-att-render": "5.8.0"
+  }
 }
